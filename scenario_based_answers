@@ -1,0 +1,121 @@
+1. Scenario: A program needs to find the second largest number in a given list of
+numbers.
+Write logic to find the second largest number in a given list.
+
+step1:Sort all the numbers in a given list in ascending order
+step2:find the size in the given list
+step3:then print n-2 and end
+    
+
+Scenario: A function needs to convert an integer to its binary representation
+without using Python’s built-in bin() function.
+Write logic to convert a given integer to its binary representation.
+
+step1:declare the variable binary,remainder and find the 'n' given in the number
+step2:
+    while n>0:
+        remainder=n%2
+        binary=str(remainder)+binary
+        n=n//2
+     return binary
+step3:end
+    
+
+2.Scenario: A function needs to merge two sorted lists into a single sorted list
+efficiently.
+Write logic to merge two sorted lists into one sorted list.
+
+
+use two pointer method-logic
+step1:declare i and j two variable for iterate the two list.i for first array list and j for second array list
+step2:declare another variable k to store the sorted list.
+step3:compare i and j
+    while i<len(list1) and j<len(list2):
+    if i<j:
+        k.append(list1[i])
+    else:
+        k.append(list2[j]
+step4:return the k.
+                 
+
+
+3.Scenario: A function needs to find the first non-repeating character in a string for
+text processing.
+Write logic to find the first non-repeating character in a given string.
+                 
+                 
+step1:count frequency of each character
+step2:find the first character with count=1
+step3:return the character
+                 
+                 
+5. Scenario: A program needs to identify common elements between two lists for
+data filtering.
+Write logic to find the common elements between two lists.                 
+                 
+step1:Lets take list1 as x and list2 as y
+step2:print(x&y)
+                 
+6.Scenario: A function is required to reverse a given number.
+Write logic to reverse a given number.                 
+
+step1:count the number 'n'
+step2:while n!=0:
+         rem=n%10
+         rev=(rev*10)+rem
+         n=n/10
+step3:return the n
+                 
+                 
+                 
+7.Scenario: A program needs to count the number of words in a given sentence.
+Write logic to count the number of words in a given sentence.
+
+                 
+step1:use sentence=sentence.strip()  #to remove the space
+step2:words=sentence.split()  #split the sentence
+step3:count the number of words. word_count- len(words)
+step4:return word_count 
+                 
+                 
+8.Scenario: A function needs to compute the factorial of a number using iteration
+instead of recursion.
+                 
+def factorial_iter(n):
+                 #step1:handle edge case
+                 if n<0:
+                     return "factorial is not defined for negative numbers"
+                 if n==0 or n==1:
+                     return 1
+                 #step2:
+                 result=1
+                 for i in range(2,n+1)
+                     result=result*i  
+                 #step3:
+                 return result
+           
+
+9.Scenario: A program is required to convert all strings in a list to uppercase.
+Write logic to convert all strings in a list to uppercase.                 
+                 
+                 
+step1:create an empty list to store results
+step2:Go through each string in the original list
+step3:convert each string to uppercase using .upper()
+step4:add the uppercase string to the new list
+step5:return the new list
+                 
+ 
+10. Scenario: A function is needed to compute the greatest common divisor (GCD)
+of two numbers using the Euclidean algorithm.
+Write logic to calculate the GCD of two numbers using the Euclidean algorithm.
+                 
+step1:take two numbers a and b
+step2:if b=0,return a
+step3:find the remainder:a%b
+step4:replace a with b
+step5:repeat from step2                 
+                 
+                 
+                 
+                 
